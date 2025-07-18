@@ -21,13 +21,13 @@ def get_diagnosis(symptom_input, df):
     if not symptom_input.strip():
         return ""
     
-    matches = df[df['Symptoms'].str.contains(symptom_input, case=False, na=False)]
+    matches = df[df['Symptom_1'].str.contains(symptom_input, case=False, na=False)]
     
     if not matches.empty:
         result = ""
         for index, row in matches.iterrows():
             result += f"**Possible Condition:** {row['Disease']}\n\n"
-            result += f"**Suggested Treatment:** {row['Treatment']}\n\n---\n\n"
+            result += f"**Suggested Treatment:** {row['Disease']}\n\n---\n\n"
         return result
     else:
         return "❗Sorry, we couldn't find a match for those symptoms. Please consider reaching out to a medical professional."
