@@ -1,0 +1,4 @@
+import streamlit as st
+
+st.subheader("Future Aspirations")
+st.write("Looking ahead, we aim to expand our tool’s capabilities to provide even deeper and more personalized support. Planned features include one-on-one doctor chats for real-time professional guidance, translation into multiple languages to serve diverse communities, and the ability to incorporate personal and family health histories to help detect chronic conditions. We also plan to implement age verification to offer more tailored recommendations based on a user's life stage. These advancements will help us continue building a more inclusive and responsive health resource for all.")

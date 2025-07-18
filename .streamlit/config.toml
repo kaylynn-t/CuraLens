@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#0B3D91"             # Navy blue (buttons, highlights)
+backgroundColor = "#FFFFFF"          # Pure white background for clean look
+secondaryBackgroundColor = "#F5F8FD" # Very light blue background for sidebar/widgets
+textColor = "#042A66"                # Dark navy text for professionalism
+font = "sans serif"

@@ -1,5 +1,11 @@
 import streamlit as st
 
 st.title("🩺CuraLens")
-st.markdown("## Welcome to CuraLens")
-st.write("This app helps identify medical conditions **and** checks for healthcare bias.")
+st.subheader("About This Model")
+#st.write("This app helps identify medical conditions **and** checks for healthcare bias.")
+#st.write("This AI-powered system helps people understand their symptoms quickly and easily. Simply enter symptoms, and possible diagnoses and treatment  will be suggested. This tool is designed to support people's health journeys, however it is not a substitute for professional medical advice.")
+st.write("This free, AI-powered system helps people understand their symptoms quickly and easily. Simply enter symptoms, and possible diagnoses and treatment options will be suggested. Designed especially to support underrepresented communities and individuals without health insurance, this tool helps make health information more accessible to everyone. While it can guide your health journey, it is not a substitute for professional medical advice.")
+st.subheader("Our Mission")
+st.write("Our mission is to make healthcare information accessible, understandable, and equitable for everyone—especially for underrepresented communities and individuals without health insurance. We believe that no one should be left in the dark about their health due to financial, geographic, or systemic barriers. By offering a free, AI-powered tool that helps people identify potential conditions based on their symptoms, we aim to empower users to take control of their health journeys with confidence and clarity. While our tool is not a replacement for professional care, it serves as a trusted starting point for those seeking guidance when options are limited.")
+st.subheader("Our Motivation")
+st.write("This project comes from our own real experience. We’re part of the SMASH program, living in dorms with about 100 students. After just one week, a lot of us started getting sick — fevers, sore throats, coughs — and we didn’t know what was happening or how serious it was. One of us tore a muscle and had to go to the hospital, another pulled a muscle, and someone even got gum stuck in her throat. We were all trying to figure things out on our own, feeling confused, uncomfortable, and unsure if we should seek medical help. That’s when we realized how helpful it would’ve been to have a tool like this — something simple, fast, and accessible that could give us some answers when we needed them most. We built this because we’ve lived the problem, and we want others in similar situations to feel less alone and more in control of their health.")
