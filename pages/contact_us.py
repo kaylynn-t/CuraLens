@@ -9,7 +9,7 @@ team = {
     "Kaylynn Tan": "https://www.linkedin.com/in/kaylynn-t-9b286126a/",
     "Swarnika Narayanan": "https://www.linkedin.com/in/swarnika-narayanan-036a072a7/",
     "Prisha Banushali": "https://www.linkedin.com/in/prisha-bhanushali-37b374227/",
-    "Malaz Ahmed": "https://www.linkedin.com/in/emmapatel"
+    "Malaz Ahmed": "https://www.linkedin.com/in/malaz-ahmed-1b4761373/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
 }
 
 for person, link in team.items():

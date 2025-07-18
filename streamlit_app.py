@@ -3,7 +3,7 @@ import streamlit as st
 pages = {
     "Pages":
     [ 
-        st.Page("pages/home.py", title = "home"),
+        st.Page("pages/home.py", title = "Home"),
         st.Page("pages/cura_chatbot.py", title = "Cura ChatBot"),
         st.Page("pages/bias_analysis.py", title = "Bias Analysis"),
         st.Page("pages/statistics.py", title = "Statistics"),
